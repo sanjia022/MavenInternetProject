@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MavenPracticeProject.MavenProject.SecondCheckBoxTest">
+      <class name="MavenPracticeProject.MavenProject.DropDownTest">
         <methods>
-          <include name="testSecondTestBox"/>
+          <include name="testDropdown"/>
           <include name="launch"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- MavenPracticeProject.MavenProject.SecondCheckBoxTest -->
+      </class> <!-- MavenPracticeProject.MavenProject.DropDownTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

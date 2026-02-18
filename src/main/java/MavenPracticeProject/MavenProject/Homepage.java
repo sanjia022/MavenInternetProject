@@ -20,6 +20,9 @@ public class Homepage {
 	@FindBy(linkText ="Drag and Drop" )
 	WebElement dragAndDropLink;
 	
+	@FindBy(linkText ="Dropdown" )
+	WebElement DropdownLink;
+	
 	public void clickonaddAndRemoveElement() {
 		addAndRemoveElement.click();
 	}
@@ -33,6 +36,10 @@ public class Homepage {
 	
 	public void clickonDragAndDropLink() {
 		dragAndDropLink.click();
+	}
+	
+	public void clickondropdownLink() {
+		DropdownLink.click();
 	}
 public Homepage(WebDriver driver ) {
 	PageFactory.initElements(driver, this);

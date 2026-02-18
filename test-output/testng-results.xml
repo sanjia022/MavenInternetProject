@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-18T09:46:40 EST" name="Suite" finished-at="2026-02-18T09:47:23 EST" duration-ms="43132">
+    <groups>
+    </groups>
+    <test started-at="2026-02-18T09:46:40 EST" name="Test" finished-at="2026-02-18T09:47:23 EST" duration-ms="43132">
+      <class name="MavenPracticeProject.MavenProject.SecondCheckBoxTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.SecondCheckBoxTest@6d763516]" started-at="2026-02-18T09:47:12 EST" name="launch" finished-at="2026-02-18T09:47:16 EST" duration-ms="4126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testSecondTestBox()[pri:0, instance:MavenPracticeProject.MavenProject.SecondCheckBoxTest@6d763516]" started-at="2026-02-18T09:47:16 EST" name="testSecondTestBox" finished-at="2026-02-18T09:47:17 EST" duration-ms="632" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSecondTestBox -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.SecondCheckBoxTest@6d763516]" started-at="2026-02-18T09:47:17 EST" name="quit" finished-at="2026-02-18T09:47:17 EST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.SecondCheckBoxTest -->
+      <class name="MavenPracticeProject.MavenProject.FirstcheckboxTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.FirstcheckboxTest@5b239d7d]" started-at="2026-02-18T09:46:51 EST" name="launch" finished-at="2026-02-18T09:46:59 EST" duration-ms="7147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testFirstCheckbox()[pri:0, instance:MavenPracticeProject.MavenProject.FirstcheckboxTest@5b239d7d]" started-at="2026-02-18T09:46:59 EST" name="testFirstCheckbox" finished-at="2026-02-18T09:47:00 EST" duration-ms="1514" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFirstCheckbox -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.FirstcheckboxTest@5b239d7d]" started-at="2026-02-18T09:47:00 EST" name="quit" finished-at="2026-02-18T09:47:02 EST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.FirstcheckboxTest -->
+      <class name="MavenPracticeProject.MavenProject.ContextMenuPageTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.ContextMenuPageTest@52bf72b5]" started-at="2026-02-18T09:47:17 EST" name="launch" finished-at="2026-02-18T09:47:21 EST" duration-ms="4146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testContextMenu()[pri:0, instance:MavenPracticeProject.MavenProject.ContextMenuPageTest@52bf72b5]" started-at="2026-02-18T09:47:21 EST" name="testContextMenu" finished-at="2026-02-18T09:47:22 EST" duration-ms="811" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContextMenu -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.ContextMenuPageTest@52bf72b5]" started-at="2026-02-18T09:47:22 EST" name="quit" finished-at="2026-02-18T09:47:23 EST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.ContextMenuPageTest -->
+      <class name="MavenPracticeProject.MavenProject.DragAndDropTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.DragAndDropTest@7334aada]" started-at="2026-02-18T09:46:40 EST" name="launch" finished-at="2026-02-18T09:46:48 EST" duration-ms="8440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testContextMenu()[pri:0, instance:MavenPracticeProject.MavenProject.DragAndDropTest@7334aada]" started-at="2026-02-18T09:46:48 EST" name="testContextMenu" finished-at="2026-02-18T09:46:50 EST" duration-ms="1354" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContextMenu -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.DragAndDropTest@7334aada]" started-at="2026-02-18T09:46:50 EST" name="quit" finished-at="2026-02-18T09:46:51 EST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.DragAndDropTest -->
+      <class name="MavenPracticeProject.MavenProject.AddButtonTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@2a798d51]" started-at="2026-02-18T09:47:02 EST" name="launch" finished-at="2026-02-18T09:47:06 EST" duration-ms="4123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testAddbutton()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@2a798d51]" started-at="2026-02-18T09:47:06 EST" name="testAddbutton" finished-at="2026-02-18T09:47:06 EST" duration-ms="634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddbutton -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@2a798d51]" started-at="2026-02-18T09:47:07 EST" name="quit" finished-at="2026-02-18T09:47:07 EST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@2a798d51]" started-at="2026-02-18T09:47:07 EST" name="launch" finished-at="2026-02-18T09:47:11 EST" duration-ms="3390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testDeleteButton()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@2a798d51]" started-at="2026-02-18T09:47:11 EST" name="testDeleteButton" finished-at="2026-02-18T09:47:11 EST" depends-on-methods="MavenPracticeProject.MavenProject.AddButtonTest.testAddbutton" duration-ms="670" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteButton -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@2a798d51]" started-at="2026-02-18T09:47:11 EST" name="quit" finished-at="2026-02-18T09:47:12 EST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.AddButtonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

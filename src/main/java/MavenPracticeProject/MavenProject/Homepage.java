@@ -23,6 +23,13 @@ public class Homepage {
 	@FindBy(linkText ="Dropdown" )
 	WebElement DropdownLink;
 	
+	
+	@FindBy(linkText ="Entry Ad" )
+	WebElement EntryAdLink;
+	
+	@FindBy(linkText ="Exit Intent" )
+	WebElement ExitIntentLink;
+	
 	public void clickonaddAndRemoveElement() {
 		addAndRemoveElement.click();
 	}
@@ -40,6 +47,14 @@ public class Homepage {
 	
 	public void clickondropdownLink() {
 		DropdownLink.click();
+	}
+	
+	public void clickOnEntryAddLink() {
+		EntryAdLink.click();
+	}
+	
+	public void clickOnExitIndent() {
+		ExitIntentLink.click();
 	}
 public Homepage(WebDriver driver ) {
 	PageFactory.initElements(driver, this);

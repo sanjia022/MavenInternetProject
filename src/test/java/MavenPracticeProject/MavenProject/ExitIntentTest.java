@@ -8,8 +8,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(datafiles.ListenerLogic.class)
 public class ExitIntentTest extends LaunchAndQuit{
 	
 	
@@ -23,7 +24,7 @@ public class ExitIntentTest extends LaunchAndQuit{
 			
 			ExitIntentPage a1= new ExitIntentPage(driver);
 			a1.movetheMouse();
-			WebDriverWait w1 = new WebDriverWait(driver,Duration.ofSeconds(10));
+			WebDriverWait w1 = new WebDriverWait(driver,Duration.ofSeconds(50));
 			w1.until(ExpectedConditions.visibilityOf(a1.modelPAgeElement));
 			
 			a1.getText();

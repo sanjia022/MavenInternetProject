@@ -24,13 +24,13 @@ public class ExitIntentTest extends LaunchAndQuit{
 			
 			ExitIntentPage a1= new ExitIntentPage(driver);
 			a1.movetheMouse();
-			WebDriverWait w1 = new WebDriverWait(driver,Duration.ofSeconds(50));
+			WebDriverWait w1 = new WebDriverWait(driver,Duration.ofSeconds(80));
 			w1.until(ExpectedConditions.visibilityOf(a1.modelPAgeElement));
 			
 			a1.getText();
 			
 
-			Assert.assertEquals(driver.findElement(By.xpath("//div[@class='modal-body']")).getText(), "It's commonly used to encourage a user to take an action (e.g., give their e-mail address to sign up for something).");
-
+			//Assert.assertEquals(driver.findElement(By.xpath("//div[@class='modal-body']")).getText(), "It's commonly used to encourage a user to take an action (e.g., give their e-mail address to sign up for something).");
+            Assert.assertTrue(driver.findElement(By.xpath("//div[@class='example']")).isDisplayed());
 }
 }

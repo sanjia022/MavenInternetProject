@@ -30,6 +30,15 @@ public class Homepage {
 	@FindBy(linkText ="Exit Intent" )
 	WebElement ExitIntentLink;
 	
+	@FindBy(linkText ="File Upload" )
+	WebElement fileUploadLink;
+	
+	@FindBy(linkText="Form Authentication")
+	WebElement formAuthenticationLink;
+	
+	@FindBy(linkText = "Geolocation")
+	WebElement  geolocationLink;
+	
 	public void clickonaddAndRemoveElement() {
 		addAndRemoveElement.click();
 	}
@@ -55,6 +64,19 @@ public class Homepage {
 	
 	public void clickOnExitIndent() {
 		ExitIntentLink.click();
+	}
+	
+	public void clickonfileuploadButton() {
+		fileUploadLink.click();
+	}
+	
+	
+	public void clickonAuthenticationLink() {
+		formAuthenticationLink.click();
+	}
+	
+	public void clickOngeolocationLink() {
+		geolocationLink.click();
 	}
 public Homepage(WebDriver driver ) {
 	PageFactory.initElements(driver, this);

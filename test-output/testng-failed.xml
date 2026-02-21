@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MavenPracticeProject.MavenProject.ExitIntentTest">
+      <class name="MavenPracticeProject.MavenProject.GeoLocationTest">
         <methods>
-          <include name="testExitIntent"/>
+          <include name="testGeolocation"/>
           <include name="launch"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- MavenPracticeProject.MavenProject.ExitIntentTest -->
+      </class> <!-- MavenPracticeProject.MavenProject.GeoLocationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,12 +5,15 @@
       <![CDATA[the test is passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-02-21T08:24:38 EST" name="Default suite" finished-at="2026-02-21T08:25:47 EST" duration-ms="68927">
+  <suite started-at="2026-02-21T12:09:34 EST" name="Default suite" finished-at="2026-02-21T12:09:42 EST" duration-ms="7708">
     <groups>
+      <group name="regression">
+        <method signature="GeoLocationTest.testGeolocation()[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@795cd85e]" name="testGeolocation" class="MavenPracticeProject.MavenProject.GeoLocationTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2026-02-21T08:24:38 EST" name="Default test" finished-at="2026-02-21T08:25:47 EST" duration-ms="68927">
-      <class name="MavenPracticeProject.MavenProject.ExitIntentTest">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.ExitIntentTest@795cd85e]" started-at="2026-02-21T08:24:38 EST" name="launch" finished-at="2026-02-21T08:24:44 EST" duration-ms="6058" status="PASS">
+    <test started-at="2026-02-21T12:09:34 EST" name="Default test" finished-at="2026-02-21T12:09:42 EST" duration-ms="7708">
+      <class name="MavenPracticeProject.MavenProject.GeoLocationTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@795cd85e]" started-at="2026-02-21T12:09:35 EST" name="launch" finished-at="2026-02-21T12:09:40 EST" duration-ms="5734" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,18 +24,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="testExitIntent()[pri:0, instance:MavenPracticeProject.MavenProject.ExitIntentTest@795cd85e]" started-at="2026-02-21T08:24:44 EST" name="testExitIntent" finished-at="2026-02-21T08:25:46 EST" duration-ms="61876" status="PASS">
+        <test-method signature="testGeolocation()[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@795cd85e]" started-at="2026-02-21T12:09:40 EST" name="testGeolocation" finished-at="2026-02-21T12:09:41 EST" duration-ms="1093" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[the test is passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testExitIntent -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.ExitIntentTest@795cd85e]" started-at="2026-02-21T08:25:46 EST" name="quit" finished-at="2026-02-21T08:25:47 EST" duration-ms="627" status="PASS">
+        </test-method> <!-- testGeolocation -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@795cd85e]" started-at="2026-02-21T12:09:42 EST" name="quit" finished-at="2026-02-21T12:09:42 EST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- MavenPracticeProject.MavenProject.ExitIntentTest -->
+      </class> <!-- MavenPracticeProject.MavenProject.GeoLocationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

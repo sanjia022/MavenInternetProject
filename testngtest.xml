@@ -4,12 +4,16 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="MavenPracticeProject.MavenProject.DragAndDropTest"/>
+      <class name="MavenPracticeProject.MavenProject.GeoLocationTest"/>
+      <class name="MavenPracticeProject.MavenProject.FormAuthenticationTest"/>
       <class name="MavenPracticeProject.MavenProject.ExitIntentTest"/>
       <class name="MavenPracticeProject.MavenProject.DropDownTest"/>
       <class name="MavenPracticeProject.MavenProject.EntryAddTest"/>
+      <class name="MavenPracticeProject.MavenProject.FileUploadTest"/>
       <class name="MavenPracticeProject.MavenProject.FirstcheckboxTest"/>
       <class name="MavenPracticeProject.MavenProject.AddButtonTest"/>
       <class name="MavenPracticeProject.MavenProject.SecondCheckBoxTest"/>
+      <class name="MavenPracticeProject.MavenProject.IncorrectPasswordTest"/>
       <class name="MavenPracticeProject.MavenProject.ContextMenuPageTest"/>
     </classes>
   </test> <!-- Test -->

@@ -1,0 +1,337 @@
+<html>
+<head>
+<title>TestNG:  edgeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>edgeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 22 09:15:30 EST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>159 seconds (159790 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.ExitIntentTest.testExitIntent()'><b>testExitIntent</b><br>Test class: MavenPracticeProject.MavenProject.ExitIntentTest<br/>
+<a href="#Output-580212331" onClick='toggleBox("Output-580212331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-580212331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-580212331">
+The test is failed<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (bb9278bb1d9cc2ab0a8701f49b089960)] -&gt; xpath: //div[@class=&apos;modal-body&apos;]] (tried for 80 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\r88st\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64822}, goog:processID: 32780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64822/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb9278bb1d9cc2ab0a8701f49b089960
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at MavenPracticeProject.MavenProject.ExitIntentTest.testExitIntent(ExitIntentTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace580212331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace580212331'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (bb9278bb1d9cc2ab0a8701f49b089960)] -&gt; xpath: //div[@class=&apos;modal-body&apos;]] (tried for 80 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\r88st\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64822}, goog:processID: 32780, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64822/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb9278bb1d9cc2ab0a8701f49b089960
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at MavenPracticeProject.MavenProject.ExitIntentTest.testExitIntent(ExitIntentTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>80</td>
+<td>MavenPracticeProject.MavenProject.ExitIntentTest@3270d194</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.IncorrectPasswordTest.testAuthentication()'><b>testAuthentication</b><br>Test class: MavenPracticeProject.MavenProject.IncorrectPasswordTest<br/>
+<a href="#Output-2049956172" onClick='toggleBox("Output-2049956172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2049956172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2049956172">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>MavenPracticeProject.MavenProject.IncorrectPasswordTest@59474f18</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.FormAuthenticationTest.testAuthentication()'><b>testAuthentication</b><br>Test class: MavenPracticeProject.MavenProject.FormAuthenticationTest<br/>
+<a href="#Output-1943764464" onClick='toggleBox("Output-1943764464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1943764464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1943764464">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>MavenPracticeProject.MavenProject.FormAuthenticationTest@73a1e9a9</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.FirstcheckboxTest.testFirstCheckbox()'><b>testFirstCheckbox</b><br>Test class: MavenPracticeProject.MavenProject.FirstcheckboxTest<br/>
+<a href="#Output-799306600" onClick='toggleBox("Output-799306600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-799306600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-799306600">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.FirstcheckboxTest@5656be13</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.FileUploadTest.testFileUpload()'><b>testFileUpload</b><br>Test class: MavenPracticeProject.MavenProject.FileUploadTest<br/>
+<a href="#Output-814507488" onClick='toggleBox("Output-814507488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-814507488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-814507488">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>MavenPracticeProject.MavenProject.FileUploadTest@235834f2</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.DropDownTest.testDropdown()'><b>testDropdown</b><br>Test class: MavenPracticeProject.MavenProject.DropDownTest<br/>
+<a href="#Output-1909597726" onClick='toggleBox("Output-1909597726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1909597726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1909597726">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.DropDownTest@71d44a3</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.EntryAddTest.testEntryAdd()'><b>testEntryAdd</b><br>Test class: MavenPracticeProject.MavenProject.EntryAddTest<br/>
+<a href="#Output-933297292" onClick='toggleBox("Output-933297292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-933297292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-933297292">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>MavenPracticeProject.MavenProject.EntryAddTest@7b98f307</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.inputTest.testInput()'><b>testInput</b><br>Test class: MavenPracticeProject.MavenProject.inputTest<br/>
+<a href="#Output-1869873220" onClick='toggleBox("Output-1869873220", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869873220" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869873220">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.inputTest@34123d65</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.AddButtonTest.testAddbutton()'><b>testAddbutton</b><br>Test class: MavenPracticeProject.MavenProject.AddButtonTest<br/>
+<a href="#Output-477655945" onClick='toggleBox("Output-477655945", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-477655945" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-477655945">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.AddButtonTest@4218d6a3</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.DragAndDropTest.testContextMenu()'><b>testContextMenu</b><br>Test class: MavenPracticeProject.MavenProject.DragAndDropTest<br/>
+<a href="#Output-1287728562" onClick='toggleBox("Output-1287728562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1287728562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1287728562">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.DragAndDropTest@55182842</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.horizontalSliderByMouseTest.testHorizontalSliderTestByKeyboard()'><b>testHorizontalSliderTestByKeyboard</b><br>Test class: MavenPracticeProject.MavenProject.horizontalSliderByMouseTest<br/>
+<a href="#Output-912373554" onClick='toggleBox("Output-912373554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-912373554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-912373554">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@14cd1699</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.GeoLocationTest.testGeolocation()'><b>testGeolocation</b><br>Test class: MavenPracticeProject.MavenProject.GeoLocationTest<br/>
+<a href="#Output-626370950" onClick='toggleBox("Output-626370950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626370950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626370950">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.GeoLocationTest@77888435</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.AddButtonTest.testDeleteButton()'><b>testDeleteButton</b><br>Test class: MavenPracticeProject.MavenProject.AddButtonTest<br/>
+<a href="#Output-56428361" onClick='toggleBox("Output-56428361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-56428361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-56428361">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.AddButtonTest@4218d6a3</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.HoverOverTest.testHoverover()'><b>testHoverover</b><br>Test class: MavenPracticeProject.MavenProject.HoverOverTest<br/>
+<a href="#Output-1835638995" onClick='toggleBox("Output-1835638995", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1835638995" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1835638995">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.HoverOverTest@55141def</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.ContextMenuPageTest.testContextMenu()'><b>testContextMenu</b><br>Test class: MavenPracticeProject.MavenProject.ContextMenuPageTest<br/>
+<a href="#Output-1364307147" onClick='toggleBox("Output-1364307147", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1364307147" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1364307147">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.ContextMenuPageTest@76505305</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.horizontalSliderByMouseTest.testHorizontalSliderTest()'><b>testHorizontalSliderTest</b><br>Test class: MavenPracticeProject.MavenProject.horizontalSliderByMouseTest<br/>
+<a href="#Output-1778227649" onClick='toggleBox("Output-1778227649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1778227649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1778227649">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@14cd1699</td></tr>
+<tr>
+<td title='MavenPracticeProject.MavenProject.SecondCheckBoxTest.testSecondTestBox()'><b>testSecondTestBox</b><br>Test class: MavenPracticeProject.MavenProject.SecondCheckBoxTest<br/>
+<a href="#Output-1358359723" onClick='toggleBox("Output-1358359723", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1358359723" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1358359723">
+the test is passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>MavenPracticeProject.MavenProject.SecondCheckBoxTest@4802796d</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[The test is failed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+    <line>
+      <![CDATA[the test is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-03-04T13:56:30 EST" name="Suite" finished-at="2026-03-04T13:59:28 EST" duration-ms="177567">
+    <groups>
+      <group name="regression">
+        <method signature="GeoLocationTest.testGeolocation()[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@77847718]" name="testGeolocation" class="MavenPracticeProject.MavenProject.GeoLocationTest"/>
+        <method signature="horizontalSliderByMouseTest.testHorizontalSliderTestByKeyboard()[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" name="testHorizontalSliderTestByKeyboard" class="MavenPracticeProject.MavenProject.horizontalSliderByMouseTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="horizontalSliderByMouseTest.testHorizontalSliderTestByKeyboard()[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" name="testHorizontalSliderTestByKeyboard" class="MavenPracticeProject.MavenProject.horizontalSliderByMouseTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-03-04T13:56:30 EST" name="Test" finished-at="2026-03-04T13:59:28 EST" duration-ms="177567">
+      <class name="MavenPracticeProject.MavenProject.inputTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.inputTest@1623b78d]" started-at="2026-03-04T13:59:15 EST" name="launch" finished-at="2026-03-04T13:59:18 EST" duration-ms="3444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testInput()[pri:0, instance:MavenPracticeProject.MavenProject.inputTest@1623b78d]" started-at="2026-03-04T13:59:18 EST" name="testInput" finished-at="2026-03-04T13:59:19 EST" duration-ms="609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInput -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.inputTest@1623b78d]" started-at="2026-03-04T13:59:19 EST" name="quit" finished-at="2026-03-04T13:59:20 EST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.inputTest -->
+      <class name="MavenPracticeProject.MavenProject.FormAuthenticationTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.FormAuthenticationTest@7f0eb4b4]" started-at="2026-03-04T13:59:05 EST" name="launch" finished-at="2026-03-04T13:59:07 EST" duration-ms="2547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testAuthentication()[pri:0, instance:MavenPracticeProject.MavenProject.FormAuthenticationTest@7f0eb4b4]" started-at="2026-03-04T13:59:07 EST" name="testAuthentication" finished-at="2026-03-04T13:59:10 EST" duration-ms="3020" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAuthentication -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.FormAuthenticationTest@7f0eb4b4]" started-at="2026-03-04T13:59:10 EST" name="quit" finished-at="2026-03-04T13:59:11 EST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.FormAuthenticationTest -->
+      <class name="MavenPracticeProject.MavenProject.JavaScriptAlertTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.JavaScriptAlertTest@7f3b84b8]" started-at="2026-03-04T13:58:51 EST" name="launch" finished-at="2026-03-04T13:58:54 EST" duration-ms="3048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testJavaScript()[pri:0, instance:MavenPracticeProject.MavenProject.JavaScriptAlertTest@7f3b84b8]" started-at="2026-03-04T13:58:54 EST" name="testJavaScript" finished-at="2026-03-04T13:58:55 EST" duration-ms="732" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testJavaScript -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.JavaScriptAlertTest@7f3b84b8]" started-at="2026-03-04T13:58:55 EST" name="quit" finished-at="2026-03-04T13:58:56 EST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.JavaScriptAlertTest -->
+      <class name="MavenPracticeProject.MavenProject.IncorrectPasswordTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.IncorrectPasswordTest@c8c12ac]" started-at="2026-03-04T13:59:20 EST" name="launch" finished-at="2026-03-04T13:59:22 EST" duration-ms="2496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testAuthentication()[pri:0, instance:MavenPracticeProject.MavenProject.IncorrectPasswordTest@c8c12ac]" started-at="2026-03-04T13:59:22 EST" name="testAuthentication" finished-at="2026-03-04T13:59:23 EST" duration-ms="1346" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAuthentication -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.IncorrectPasswordTest@c8c12ac]" started-at="2026-03-04T13:59:24 EST" name="quit" finished-at="2026-03-04T13:59:24 EST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.IncorrectPasswordTest -->
+      <class name="MavenPracticeProject.MavenProject.EntryAddTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.EntryAddTest@57a3af25]" started-at="2026-03-04T13:58:56 EST" name="launch" finished-at="2026-03-04T13:58:58 EST" duration-ms="2934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testEntryAdd()[pri:0, instance:MavenPracticeProject.MavenProject.EntryAddTest@57a3af25]" started-at="2026-03-04T13:58:58 EST" name="testEntryAdd" finished-at="2026-03-04T13:59:00 EST" duration-ms="1236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEntryAdd -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.EntryAddTest@57a3af25]" started-at="2026-03-04T13:59:00 EST" name="quit" finished-at="2026-03-04T13:59:00 EST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.EntryAddTest -->
+      <class name="MavenPracticeProject.MavenProject.DragAndDropTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.DragAndDropTest@1d2adfbe]" started-at="2026-03-04T13:56:39 EST" name="launch" finished-at="2026-03-04T13:56:41 EST" duration-ms="2577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testContextMenu()[pri:0, instance:MavenPracticeProject.MavenProject.DragAndDropTest@1d2adfbe]" started-at="2026-03-04T13:56:41 EST" name="testContextMenu" finished-at="2026-03-04T13:56:42 EST" duration-ms="824" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContextMenu -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.DragAndDropTest@1d2adfbe]" started-at="2026-03-04T13:56:42 EST" name="quit" finished-at="2026-03-04T13:56:42 EST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.DragAndDropTest -->
+      <class name="MavenPracticeProject.MavenProject.GeoLocationTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@77847718]" started-at="2026-03-04T13:58:45 EST" name="launch" finished-at="2026-03-04T13:58:48 EST" duration-ms="2811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testGeolocation()[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@77847718]" started-at="2026-03-04T13:58:48 EST" name="testGeolocation" finished-at="2026-03-04T13:58:50 EST" duration-ms="2903" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGeolocation -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.GeoLocationTest@77847718]" started-at="2026-03-04T13:58:51 EST" name="quit" finished-at="2026-03-04T13:58:51 EST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.GeoLocationTest -->
+      <class name="MavenPracticeProject.MavenProject.StatusCode200Test">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.StatusCode200Test@6adbc9d]" started-at="2026-03-04T13:59:24 EST" name="launch" finished-at="2026-03-04T13:59:26 EST" duration-ms="2378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testStatusCode()[pri:0, instance:MavenPracticeProject.MavenProject.StatusCode200Test@6adbc9d]" started-at="2026-03-04T13:59:26 EST" name="testStatusCode" finished-at="2026-03-04T13:59:27 EST" duration-ms="781" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.StatusCode200Test@6adbc9d]" started-at="2026-03-04T13:59:27 EST" name="quit" finished-at="2026-03-04T13:59:28 EST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.StatusCode200Test -->
+      <class name="MavenPracticeProject.MavenProject.KeyPressTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.KeyPressTest@36902638]" started-at="2026-03-04T13:56:42 EST" name="launch" finished-at="2026-03-04T13:56:45 EST" duration-ms="2297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testKeyPress()[pri:0, instance:MavenPracticeProject.MavenProject.KeyPressTest@36902638]" started-at="2026-03-04T13:56:45 EST" name="testKeyPress" finished-at="2026-03-04T13:56:46 EST" duration-ms="1104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testKeyPress -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.KeyPressTest@36902638]" started-at="2026-03-04T13:56:46 EST" name="quit" finished-at="2026-03-04T13:56:46 EST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.KeyPressTest -->
+      <class name="MavenPracticeProject.MavenProject.FileUploadTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.FileUploadTest@223d2c72]" started-at="2026-03-04T13:56:46 EST" name="launch" finished-at="2026-03-04T13:56:49 EST" duration-ms="2477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testFileUpload()[pri:0, instance:MavenPracticeProject.MavenProject.FileUploadTest@223d2c72]" started-at="2026-03-04T13:56:49 EST" name="testFileUpload" finished-at="2026-03-04T13:56:50 EST" duration-ms="1061" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFileUpload -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.FileUploadTest@223d2c72]" started-at="2026-03-04T13:56:50 EST" name="quit" finished-at="2026-03-04T13:56:51 EST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.FileUploadTest -->
+      <class name="MavenPracticeProject.MavenProject.HoverOverTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.HoverOverTest@4567f35d]" started-at="2026-03-04T13:56:30 EST" name="launch" finished-at="2026-03-04T13:56:37 EST" duration-ms="6756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testHoverover()[pri:0, instance:MavenPracticeProject.MavenProject.HoverOverTest@4567f35d]" started-at="2026-03-04T13:56:37 EST" name="testHoverover" finished-at="2026-03-04T13:56:38 EST" duration-ms="781" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHoverover -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.HoverOverTest@4567f35d]" started-at="2026-03-04T13:56:38 EST" name="quit" finished-at="2026-03-04T13:56:39 EST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.HoverOverTest -->
+      <class name="MavenPracticeProject.MavenProject.SecondCheckBoxTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.SecondCheckBoxTest@5c33f1a9]" started-at="2026-03-04T13:59:11 EST" name="launch" finished-at="2026-03-04T13:59:13 EST" duration-ms="2539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testSecondTestBox()[pri:0, instance:MavenPracticeProject.MavenProject.SecondCheckBoxTest@5c33f1a9]" started-at="2026-03-04T13:59:13 EST" name="testSecondTestBox" finished-at="2026-03-04T13:59:14 EST" duration-ms="710" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSecondTestBox -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.SecondCheckBoxTest@5c33f1a9]" started-at="2026-03-04T13:59:14 EST" name="quit" finished-at="2026-03-04T13:59:15 EST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.SecondCheckBoxTest -->
+      <class name="MavenPracticeProject.MavenProject.FirstcheckboxTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.FirstcheckboxTest@436813f3]" started-at="2026-03-04T13:58:15 EST" name="launch" finished-at="2026-03-04T13:58:18 EST" duration-ms="3205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testFirstCheckbox()[pri:0, instance:MavenPracticeProject.MavenProject.FirstcheckboxTest@436813f3]" started-at="2026-03-04T13:58:18 EST" name="testFirstCheckbox" finished-at="2026-03-04T13:58:19 EST" duration-ms="793" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFirstCheckbox -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.FirstcheckboxTest@436813f3]" started-at="2026-03-04T13:58:19 EST" name="quit" finished-at="2026-03-04T13:58:20 EST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.FirstcheckboxTest -->
+      <class name="MavenPracticeProject.MavenProject.ContextMenuPageTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.ContextMenuPageTest@131774fe]" started-at="2026-03-04T13:58:31 EST" name="launch" finished-at="2026-03-04T13:58:34 EST" duration-ms="3308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testContextMenu()[pri:0, instance:MavenPracticeProject.MavenProject.ContextMenuPageTest@131774fe]" started-at="2026-03-04T13:58:34 EST" name="testContextMenu" finished-at="2026-03-04T13:58:35 EST" duration-ms="712" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testContextMenu -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.ContextMenuPageTest@131774fe]" started-at="2026-03-04T13:58:35 EST" name="quit" finished-at="2026-03-04T13:58:36 EST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.ContextMenuPageTest -->
+      <class name="MavenPracticeProject.MavenProject.ExitIntentTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.ExitIntentTest@8f4ea7c]" started-at="2026-03-04T13:56:51 EST" name="launch" finished-at="2026-03-04T13:56:53 EST" duration-ms="2340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testExitIntent()[pri:0, instance:MavenPracticeProject.MavenProject.ExitIntentTest@8f4ea7c]" started-at="2026-03-04T13:56:53 EST" name="testExitIntent" finished-at="2026-03-04T13:58:14 EST" duration-ms="81286" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (4da89f149a5eacad2f239c3bebbfc273)] -> xpath: //div[@class='modal-body']] (tried for 80 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\r88st\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59817}, goog:processID: 8548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59817/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4da89f149a5eacad2f239c3bebbfc273]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (4da89f149a5eacad2f239c3bebbfc273)] -> xpath: //div[@class='modal-body']] (tried for 80 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\r88st\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59817}, goog:processID: 8548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59817/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4da89f149a5eacad2f239c3bebbfc273
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at MavenPracticeProject.MavenProject.ExitIntentTest.testExitIntent(ExitIntentTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[The test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExitIntent -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.ExitIntentTest@8f4ea7c]" started-at="2026-03-04T13:58:14 EST" name="quit" finished-at="2026-03-04T13:58:15 EST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.ExitIntentTest -->
+      <class name="MavenPracticeProject.MavenProject.DropDownTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.DropDownTest@2b662a77]" started-at="2026-03-04T13:59:00 EST" name="launch" finished-at="2026-03-04T13:59:03 EST" duration-ms="2721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testDropdown()[pri:0, instance:MavenPracticeProject.MavenProject.DropDownTest@2b662a77]" started-at="2026-03-04T13:59:03 EST" name="testDropdown" finished-at="2026-03-04T13:59:04 EST" duration-ms="734" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDropdown -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.DropDownTest@2b662a77]" started-at="2026-03-04T13:59:04 EST" name="quit" finished-at="2026-03-04T13:59:05 EST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.DropDownTest -->
+      <class name="MavenPracticeProject.MavenProject.AddButtonTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@10e31a9a]" started-at="2026-03-04T13:58:20 EST" name="launch" finished-at="2026-03-04T13:58:22 EST" duration-ms="2578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testAddbutton()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@10e31a9a]" started-at="2026-03-04T13:58:22 EST" name="testAddbutton" finished-at="2026-03-04T13:58:23 EST" duration-ms="830" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddbutton -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@10e31a9a]" started-at="2026-03-04T13:58:24 EST" name="quit" finished-at="2026-03-04T13:58:24 EST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@10e31a9a]" started-at="2026-03-04T13:58:24 EST" name="launch" finished-at="2026-03-04T13:58:28 EST" duration-ms="3619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testDeleteButton()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@10e31a9a]" started-at="2026-03-04T13:58:28 EST" name="testDeleteButton" finished-at="2026-03-04T13:58:29 EST" depends-on-methods="MavenPracticeProject.MavenProject.AddButtonTest.testAddbutton" duration-ms="1176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteButton -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.AddButtonTest@10e31a9a]" started-at="2026-03-04T13:58:29 EST" name="quit" finished-at="2026-03-04T13:58:31 EST" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.AddButtonTest -->
+      <class name="MavenPracticeProject.MavenProject.horizontalSliderByMouseTest">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" started-at="2026-03-04T13:58:36 EST" name="launch" finished-at="2026-03-04T13:58:39 EST" duration-ms="2585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testHorizontalSliderTest()[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" started-at="2026-03-04T13:58:39 EST" name="testHorizontalSliderTest" finished-at="2026-03-04T13:58:39 EST" duration-ms="697" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHorizontalSliderTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" started-at="2026-03-04T13:58:40 EST" name="quit" finished-at="2026-03-04T13:58:40 EST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" started-at="2026-03-04T13:58:40 EST" name="launch" finished-at="2026-03-04T13:58:43 EST" duration-ms="2769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="testHorizontalSliderTestByKeyboard()[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" started-at="2026-03-04T13:58:43 EST" name="testHorizontalSliderTestByKeyboard" finished-at="2026-03-04T13:58:44 EST" duration-ms="833" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the test is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHorizontalSliderTestByKeyboard -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:MavenPracticeProject.MavenProject.horizontalSliderByMouseTest@158d2680]" started-at="2026-03-04T13:58:44 EST" name="quit" finished-at="2026-03-04T13:58:45 EST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- MavenPracticeProject.MavenProject.horizontalSliderByMouseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\r88st\eclipse-workspace-fixed\MavenProject\testngtest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.ExitIntentTest" class="method navigator-link" hash-for-method="testExitIntent">testExitIntent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.AddButtonTest" class="method navigator-link" hash-for-method="testAddbutton">testAddbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.IncorrectPasswordTest" class="method navigator-link" hash-for-method="testAuthentication">testAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.FormAuthenticationTest" class="method navigator-link" hash-for-method="testAuthentication">testAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.DragAndDropTest" class="method navigator-link" hash-for-method="testContextMenu">testContextMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.ContextMenuPageTest" class="method navigator-link" hash-for-method="testContextMenu">testContextMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.AddButtonTest" class="method navigator-link" hash-for-method="testDeleteButton">testDeleteButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.DropDownTest" class="method navigator-link" hash-for-method="testDropdown">testDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.EntryAddTest" class="method navigator-link" hash-for-method="testEntryAdd">testEntryAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.FileUploadTest" class="method navigator-link" hash-for-method="testFileUpload">testFileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.FirstcheckboxTest" class="method navigator-link" hash-for-method="testFirstCheckbox">testFirstCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.GeoLocationTest" class="method navigator-link" hash-for-method="testGeolocation">testGeolocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.horizontalSliderByMouseTest" class="method navigator-link" hash-for-method="testHorizontalSliderTest">testHorizontalSliderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.horizontalSliderByMouseTest" class="method navigator-link" hash-for-method="testHorizontalSliderTestByKeyboard">testHorizontalSliderTestByKeyboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.HoverOverTest" class="method navigator-link" hash-for-method="testHoverover">testHoverover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.inputTest" class="method navigator-link" hash-for-method="testInput">testInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.JavaScriptAlertTest" class="method navigator-link" hash-for-method="testJavaScript">testJavaScript</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.KeyPressTest" class="method navigator-link" hash-for-method="testKeyPress">testKeyPress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.SecondCheckBoxTest" class="method navigator-link" hash-for-method="testSecondTestBox">testSecondTestBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="MavenPracticeProject.MavenProject.StatusCode200Test" class="method navigator-link" hash-for-method="testStatusCode">testStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.ExitIntentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExitIntent">
+                  </a> <!-- testExitIntent -->
+                  <span class="method-name">testExitIntent</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (4da89f149a5eacad2f239c3bebbfc273)] -&gt; xpath: //div[@class=&apos;modal-body&apos;]] (tried for 80 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\r88st\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59817}, goog:processID: 8548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59817/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4da89f149a5eacad2f239c3bebbfc273
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at MavenPracticeProject.MavenProject.ExitIntentTest.testExitIntent(ExitIntentTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.inputTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInput">
+                  </a> <!-- testInput -->
+                  <span class="method-name">testInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.JavaScriptAlertTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJavaScript">
+                  </a> <!-- testJavaScript -->
+                  <span class="method-name">testJavaScript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.KeyPressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testKeyPress">
+                  </a> <!-- testKeyPress -->
+                  <span class="method-name">testKeyPress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.EntryAddTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEntryAdd">
+                  </a> <!-- testEntryAdd -->
+                  <span class="method-name">testEntryAdd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.HoverOverTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHoverover">
+                  </a> <!-- testHoverover -->
+                  <span class="method-name">testHoverover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.AddButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddbutton">
+                  </a> <!-- testAddbutton -->
+                  <span class="method-name">testAddbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteButton">
+                  </a> <!-- testDeleteButton -->
+                  <span class="method-name">testDeleteButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.DragAndDropTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContextMenu">
+                  </a> <!-- testContextMenu -->
+                  <span class="method-name">testContextMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.StatusCode200Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStatusCode">
+                  </a> <!-- testStatusCode -->
+                  <span class="method-name">testStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.FirstcheckboxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstCheckbox">
+                  </a> <!-- testFirstCheckbox -->
+                  <span class="method-name">testFirstCheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.SecondCheckBoxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSecondTestBox">
+                  </a> <!-- testSecondTestBox -->
+                  <span class="method-name">testSecondTestBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.GeoLocationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGeolocation">
+                  </a> <!-- testGeolocation -->
+                  <span class="method-name">testGeolocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.IncorrectPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthentication">
+                  </a> <!-- testAuthentication -->
+                  <span class="method-name">testAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.FileUploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFileUpload">
+                  </a> <!-- testFileUpload -->
+                  <span class="method-name">testFileUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.FormAuthenticationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthentication">
+                  </a> <!-- testAuthentication -->
+                  <span class="method-name">testAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.DropDownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDropdown">
+                  </a> <!-- testDropdown -->
+                  <span class="method-name">testDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.ContextMenuPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContextMenu">
+                  </a> <!-- testContextMenu -->
+                  <span class="method-name">testContextMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MavenPracticeProject.MavenProject.horizontalSliderByMouseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHorizontalSliderTest">
+                  </a> <!-- testHorizontalSliderTest -->
+                  <span class="method-name">testHorizontalSliderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHorizontalSliderTestByKeyboard">
+                  </a> <!-- testHorizontalSliderTestByKeyboard -->
+                  <span class="method-name">testHorizontalSliderTestByKeyboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\r88st\eclipse-workspace-fixed\MavenProject\testngtest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.HoverOverTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.DragAndDropTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.KeyPressTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.FileUploadTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.ExitIntentTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.FirstcheckboxTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.AddButtonTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.ContextMenuPageTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.horizontalSliderByMouseTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.GeoLocationTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.JavaScriptAlertTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.EntryAddTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.DropDownTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.FormAuthenticationTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.SecondCheckBoxTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.inputTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.IncorrectPasswordTest&quot;/&gt;
+      &lt;class name=&quot;MavenPracticeProject.MavenProject.StatusCode200Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGeolocation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHorizontalSliderTestByKeyboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHorizontalSliderTestByKeyboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testExitIntent')
+data.setCell(0, 2, 'MavenPracticeProject.MavenProject.ExitIntentTest')
+data.setCell(0, 3, 81286);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAuthentication')
+data.setCell(1, 2, 'MavenPracticeProject.MavenProject.FormAuthenticationTest')
+data.setCell(1, 3, 3020);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGeolocation')
+data.setCell(2, 2, 'MavenPracticeProject.MavenProject.GeoLocationTest')
+data.setCell(2, 3, 2903);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAuthentication')
+data.setCell(3, 2, 'MavenPracticeProject.MavenProject.IncorrectPasswordTest')
+data.setCell(3, 3, 1346);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testEntryAdd')
+data.setCell(4, 2, 'MavenPracticeProject.MavenProject.EntryAddTest')
+data.setCell(4, 3, 1236);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeleteButton')
+data.setCell(5, 2, 'MavenPracticeProject.MavenProject.AddButtonTest')
+data.setCell(5, 3, 1176);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testKeyPress')
+data.setCell(6, 2, 'MavenPracticeProject.MavenProject.KeyPressTest')
+data.setCell(6, 3, 1104);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testFileUpload')
+data.setCell(7, 2, 'MavenPracticeProject.MavenProject.FileUploadTest')
+data.setCell(7, 3, 1061);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testHorizontalSliderTestByKeyboard')
+data.setCell(8, 2, 'MavenPracticeProject.MavenProject.horizontalSliderByMouseTest')
+data.setCell(8, 3, 833);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAddbutton')
+data.setCell(9, 2, 'MavenPracticeProject.MavenProject.AddButtonTest')
+data.setCell(9, 3, 830);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testContextMenu')
+data.setCell(10, 2, 'MavenPracticeProject.MavenProject.DragAndDropTest')
+data.setCell(10, 3, 824);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testFirstCheckbox')
+data.setCell(11, 2, 'MavenPracticeProject.MavenProject.FirstcheckboxTest')
+data.setCell(11, 3, 793);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testHoverover')
+data.setCell(12, 2, 'MavenPracticeProject.MavenProject.HoverOverTest')
+data.setCell(12, 3, 781);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testStatusCode')
+data.setCell(13, 2, 'MavenPracticeProject.MavenProject.StatusCode200Test')
+data.setCell(13, 3, 781);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDropdown')
+data.setCell(14, 2, 'MavenPracticeProject.MavenProject.DropDownTest')
+data.setCell(14, 3, 734);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testJavaScript')
+data.setCell(15, 2, 'MavenPracticeProject.MavenProject.JavaScriptAlertTest')
+data.setCell(15, 3, 732);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testContextMenu')
+data.setCell(16, 2, 'MavenPracticeProject.MavenProject.ContextMenuPageTest')
+data.setCell(16, 3, 712);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSecondTestBox')
+data.setCell(17, 2, 'MavenPracticeProject.MavenProject.SecondCheckBoxTest')
+data.setCell(17, 3, 710);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testHorizontalSliderTest')
+data.setCell(18, 2, 'MavenPracticeProject.MavenProject.horizontalSliderByMouseTest')
+data.setCell(18, 3, 697);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testInput')
+data.setCell(19, 2, 'MavenPracticeProject.MavenProject.inputTest')
+data.setCell(19, 3, 609);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testFirstCheckbox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAuthentication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testGeolocation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testInput</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHorizontalSliderTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDropdown</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDeleteButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHorizontalSliderTestByKeyboard</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSecondTestBox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testContextMenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testKeyPress</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testContextMenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHoverover</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testEntryAdd</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAddbutton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testStatusCode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testFileUpload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testJavaScript</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAuthentication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">the test is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testExitIntent</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">The test is failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.HoverOverTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHoverover</span>
+                <span class="method-start">6758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">7777 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.DragAndDropTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">8333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testContextMenu</span>
+                <span class="method-start">10910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">11906 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.KeyPressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">12284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testKeyPress</span>
+                <span class="method-start">14583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">15919 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.FileUploadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">16281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFileUpload</span>
+                <span class="method-start">18758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">20004 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.ExitIntentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">20367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testExitIntent</span>
+                <span class="method-start">22707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">104210 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.FirstcheckboxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">104999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFirstCheckbox</span>
+                <span class="method-start">108205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">109210 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.AddButtonTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">109659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddbutton</span>
+                <span class="method-start">112238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">113321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">113820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteButton</span>
+                <span class="method-start">117439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">118876 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.ContextMenuPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">120669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testContextMenu</span>
+                <span class="method-start">123977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">125085 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.horizontalSliderByMouseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">126003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHorizontalSliderTest</span>
+                <span class="method-start">128588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">129476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">129932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHorizontalSliderTestByKeyboard</span>
+                <span class="method-start">132701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">133704 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.GeoLocationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">134557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGeolocation</span>
+                <span class="method-start">137368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">140441 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.JavaScriptAlertTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">140801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testJavaScript</span>
+                <span class="method-start">143849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">144993 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.EntryAddTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">145325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEntryAdd</span>
+                <span class="method-start">148259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">149745 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.DropDownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">150217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDropdown</span>
+                <span class="method-start">152938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">153941 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.FormAuthenticationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">154295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthentication</span>
+                <span class="method-start">156842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">160092 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.SecondCheckBoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">160637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSecondTestBox</span>
+                <span class="method-start">163176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">164069 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.inputTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">164461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInput</span>
+                <span class="method-start">167905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">168808 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.IncorrectPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">169290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAuthentication</span>
+                <span class="method-start">171786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">173380 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MavenPracticeProject.MavenProject.StatusCode200Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(chrome)</span>
+                <span class="method-start">173755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStatusCode</span>
+                <span class="method-start">176133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">177058 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
